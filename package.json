@@ -1,0 +1,27 @@
+{
+  "name": "filetree-md",
+  "version": "1.1.1",
+  "description": "Create a markdown of file tree from any directory",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "filetree": "./bin/demo-global.js"
+  },
+  "preferGlobal": true,
+  "author": "Hu Yao-Chieh (yhuag)",
+  "license": "MIT",
+  "dependencies": {
+    "directory-tree": "^2.1.0"
+  },
+  "keywords": [
+    "markdown",
+    "directory",
+    "tree",
+    "file"
+  ]
+}
